@@ -11,3 +11,9 @@ name = input()  # считываем строку и кладём её в пер
 print('Здравствуйте, ' + name + '!')
 
 
+a = input()
+b = input()
+s = a + b
+print(s)
+
+
