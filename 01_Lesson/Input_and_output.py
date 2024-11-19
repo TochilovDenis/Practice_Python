@@ -22,7 +22,10 @@ second = 7
 print(first * second)
 first = '5'
 second = '7'
-# print(first * second)
+print(first * second)  # вызывает ошибку TypeError при выполнении, так как * используется для повторения строки,
+                       # а не для умножения строк друг на друга.
+
+print(int(first) * int(second))  # преобразует строки в целые числа и выполняет их умножение
 
 
 a = int(input())
